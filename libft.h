@@ -6,7 +6,7 @@
 /*   By: obenhamm <obenhamm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 18:18:04 by obenhamm          #+#    #+#             */
-/*   Updated: 2024/11/04 13:27:28 by obenhamm         ###   ########.fr       */
+/*   Updated: 2024/11/04 14:28:04 by obenhamm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,5 +43,6 @@ char	*ft_strdup(const char *s1);
 void	*ft_calloc(size_t count, size_t size);
 void	ft_putchar_fd(char c, int fd);
 void	ft_putnbr_fd(int n, int fd);
-
+void	ft_putendl_fd(char *s, int fd);
+void	ft_putstr_fd(char *s, int fd);
 #endif

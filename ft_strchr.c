@@ -6,7 +6,7 @@
 /*   By: obenhamm <obenhamm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 18:16:42 by obenhamm          #+#    #+#             */
-/*   Updated: 2024/10/30 00:31:34 by obenhamm         ###   ########.fr       */
+/*   Updated: 2024/11/04 14:04:30 by obenhamm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_strchr(const char *s, int c)
 	i = 0;
 	while (i <= (int)ft_strlen(s))
 	{
-		if (p[i] == c)
+		if (p[i] == (char)c)
 		{
 			return (p + i);
 		}
