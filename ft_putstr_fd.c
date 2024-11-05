@@ -6,7 +6,7 @@
 /*   By: obenhamm <obenhamm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 14:32:53 by obenhamm          #+#    #+#             */
-/*   Updated: 2024/11/04 14:33:59 by obenhamm         ###   ########.fr       */
+/*   Updated: 2024/11/04 14:38:29 by obenhamm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	ft_putstr_fd(char *s, int fd)
 {
 	int	i;
 
+	if (fd < 0)
+		return ;
 	i = 0;
 	while (s[i] != '\0')
 	{
